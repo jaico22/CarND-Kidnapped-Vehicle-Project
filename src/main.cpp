@@ -39,8 +39,8 @@ int main() {
 
   // Read map data
   Map map;
-  if (!read_map_data("../data/map_data.txt", map)) {
-    std::cout << "Error: Could not open map file" << std::endl;
+  if (!read_map_data("data/map_data.txt", map)) {
+    std::cout << "Error: Could not open smap file" << std::endl;
     return -1;
   }
 
